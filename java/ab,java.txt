@@ -1,0 +1,28 @@
+import java.util.scanner;
+class ab
+{
+public ststic void main(String[] args)
+{
+
+Scanner a=new Scanner;
+System.out.println("enter yhe value");
+int n=a.netint();
+System.out.println("get the array vslue in run time");
+for(int i=0;i<=n;i++)
+{
+for(int j=0;J<=n;J++)
+{
+a[i][j]=a.nextInt();
+}
+}
+System.out.println("array");
+for(int i=0;i<=n;i++)
+{
+for(int j=0;J<=n;J++)
+{
+System.out.println(a[i][j]+"\t");
+}
+}
+
+}
+}
